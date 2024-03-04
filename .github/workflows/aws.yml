@@ -86,7 +86,7 @@ jobs:
         run: |
          docker pull 058264310656.dkr.ecr.ap-southeast-1.amazonaws.com/stuperformance:latest
          
-      # - name: Stop and remove  container if running
+      # - name: Stop and remove  container if running   
       #   run: |
       #    docker ps -q --filter "name=mltest" | grep -q . && docker stop mltest && docker rm -fv mltest
        
